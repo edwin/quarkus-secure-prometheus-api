@@ -1,4 +1,4 @@
-Securing Quarkus Prometheus API 
+Securing Quarkus Metrics API 
 =======================
 
 A simple apps to display how a secure metrics are being provided by Quarkus apps.
@@ -13,9 +13,15 @@ Health Check for Kubernetes's Liveness and Healthiness Probe
 http://localhost:8082/health
 ```
 
-Prometheus Metrics (use admin / password for login to see the result metrics)
+Statistic and Metrics (use admin / password for login to see the result metrics)
 ```
 http://localhost:8082/metrics
+```
+
+## Metrics
+Quarkus is using MicroProfile Metrics for gathering various metrics and statistics
+```
+https://quarkus.io/guides/microprofile-metrics
 ```
 
 ## Security
