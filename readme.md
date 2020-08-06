@@ -34,3 +34,8 @@ authorization is based on a plain text user validation
 ```
 https://quarkus.io/guides/security-properties
 ```
+
+## Blog post
+```
+https://edwin.baculsoft.com/2020/08/securing-quarkus-metric-api/
+```
